@@ -4,8 +4,8 @@ Seu desenvolvimento todo foi realizado utilizando a versão 3.8.
 
 É importante que as seguintes bibliotecas estejam disponiveis para o funcionamento do programa: 
 
-=> requests
-=> json
+* requests
+* json
 
 =================== IMPORTANTE ===================
 
@@ -34,10 +34,6 @@ $ python enable_snmp.pyd
 
 Dados que eu utilizei para acesso ao AP:
 
-Usuário: admin
-Senha:in.lock.net2040
-portas: 38275(http) e 38274(snmp)
-Ip para acesso: 132.255.57.233
 API: http://citeb.com.br/izeus/apiary/v3/
 
 As informações contidas na API cobrem 100% das necessidades do desafio, porem foram necessários alguns ajustes quanto a biblioteca requests.
@@ -45,10 +41,10 @@ Pois alguns dos metedos sofreram pequenas alterações e não houve a necessidad
 
 O programa pode ser dividido em 4 partes:
 
-=> Função para verificar o estado do serviço snmp;
-=> Função para habilitar o serviço snmp;
-=> Função para desabilitar o serviço snmp;
-=> Função menu de opções para viabilizar navegação entre as funções anteriores;
+* Função para verificar o estado do serviço snmp;
+* Função para habilitar o serviço snmp;
+* Função para desabilitar o serviço snmp;
+* Função menu de opções para viabilizar navegação entre as funções anteriores;
 
 Dentro das funções habilitar/desabilitar eu implementei, seguindo as orientações da API, um request para gravar as alterações em flash.
 Eu tratei todas requests em respostas em texto no terminal, conforme solicitado na proposta deste desafio
