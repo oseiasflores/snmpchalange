@@ -7,7 +7,7 @@ Seu desenvolvimento todo foi realizado utilizando a versão 3.8.
 * requests
 * json
 
-# =================== IMPORTANTE ===================
+## =================== IMPORTANTE ===================
 
 Por default, tais bibliotecas já vem incluidas nas versões de python >= 3.5. Caso a versão de python seja superior a 3.5 desconsiderar o item 2 deste guia e ir direto para o item 3.
 
