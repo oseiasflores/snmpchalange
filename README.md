@@ -25,7 +25,12 @@ $ sudo apt install python3-pip
 
 Comandos para instalar as bibliotecas utilizadas (Caso a versão de python seja < 3.5):
 
+Biblioteca requests:
+
 $ sudo pip3 install requests
+
+Biblioteca json:
+
 $ sudo pip3 install json
 
 3 - Para executar o programa, basta chamar o python (>= 3.5) seguido do arquivo enable_snmp.py:
