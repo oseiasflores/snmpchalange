@@ -13,7 +13,7 @@ Por default, tais bibliotecas já vem incluidas nas versões de python >= 3.5. C
 
 Para verificar a versão de python, basta executar em seu terminal:
 
-$ python --version
+###### $ python --version
 
 2 - Caso não esteja disponivel uma versão igual ou superior, é possivel instalar utilizando pip3 em outras versões anteriores de python3. 
 
@@ -21,21 +21,21 @@ $ python --version
 
 Instalar pip3 (Caso a versão de python seja < 3.5 & >= 3):
 
-$ sudo apt install python3-pip
+###### $ sudo apt install python3-pip
 
 Comandos para instalar as bibliotecas utilizadas (Caso a versão de python seja < 3.5):
 
 Biblioteca requests:
 
-$ sudo pip3 install requests
+###### $ sudo pip3 install requests
 
 Biblioteca json:
 
-$ sudo pip3 install json
+###### $ sudo pip3 install json
 
 3 - Para executar o programa, basta chamar o python (>= 3.5) seguido do arquivo enable_snmp.py:
 
-$ python enable_snmp.pyd 
+###### $ python enable_snmp.pyd 
 
 Dados que eu utilizei para acesso ao AP:
 
