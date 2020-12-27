@@ -1,4 +1,4 @@
-# snmpchalange
+# snmpchallange
 1 - Para correta execução deste programa, é necessário uma versão de python >= 3.5
 Seu desenvolvimento todo foi realizado utilizando a versão 3.8.
 
