@@ -16,7 +16,7 @@ headers = {
 }
 
 #URL BASE
-urlbase ='http://132.255.57.233:38275'
+urlbase ='http://192.168.10.1:80'
 
 def verify_snmp():
     # Request para realizar login
